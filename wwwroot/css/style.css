@@ -1,0 +1,8 @@
+﻿.btn {
+    width: 75px;
+}
+
+.card-img-top {
+    height: 150px;
+    object-fit: contain;
+}
