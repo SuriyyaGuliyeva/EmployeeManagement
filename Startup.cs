@@ -1,6 +1,7 @@
 using EmployeeManagement.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -22,7 +23,11 @@ namespace EmployeeManagement
         public void ConfigureServices(IServiceCollection services)
         {
             //services.AddMvc();
-            services.AddScoped<IEmployeeRepository, MockEmployeeRepository>();
+            services.AddDbContextPool<AppDbContext>(
+                options => options.UseSqlServer(
+                    Configuration.GetConnectionString("EmployeeDBConnection")));
+            
+            services.AddScoped<IEmployeeRepository, SQLEmployeeRepository>();
             services.AddControllersWithViews();
         }
 
