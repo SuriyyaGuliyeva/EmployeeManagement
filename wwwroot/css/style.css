@@ -6,3 +6,9 @@
     height: 150px;
     object-fit: contain;
 }
+
+.imageThumbnail {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
