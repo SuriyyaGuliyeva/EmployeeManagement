@@ -38,6 +38,11 @@ namespace EmployeeManagement
             {
                 app.UseDeveloperExceptionPage();
             }
+            else
+            {
+                app.UseExceptionHandler("/Error"); //Global Exception Handling
+                app.UseStatusCodePagesWithReExecute("/Error/{0}"); //404 Not Found
+            }
 
             //FileServerOptions fileServerOptions = new FileServerOptions();
             //fileServerOptions.DefaultFilesOptions.DefaultFileNames.Clear();
