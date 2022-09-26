@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qv4LMSA5tkt4VBYl7Hy6xLSlytcfo+SFkTD2FLkKnpgBgNcaNk8m2mIpn17bmNMEFGIvZl/NEaLJnabTeXlevQ==",
+  "dgSpecHash": "3BjH4zmCGtiGJ2xYCY+HpPNspXB+5C5Lof1kbrs6WEAMfwkT37Lia62HJF30I0JQS18XXs+r5kjavx72FdXi/A==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\OneDrive\\Masaüstü\\EmployeeManagement\\EmployeeManagement.csproj",
   "expectedPackageFiles": [
@@ -35,6 +35,9 @@
     "C:\\Users\\user\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\nlog\\5.0.4\\nlog.5.0.4.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\nlog.extensions.logging\\5.0.4\\nlog.extensions.logging.5.0.4.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\nlog.web.aspnetcore\\5.1.4\\nlog.web.aspnetcore.5.1.4.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
